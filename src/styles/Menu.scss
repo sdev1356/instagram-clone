@@ -1,13 +1,18 @@
-.menu{
+.menu {
     display: flex;
-    padding-right:1.6em;
-    .icon{
-        margin: right 1.9em !important;;
-       
-        width:23px;
-        height:23px;
-        &:hover{
-            cursor: pointer;
-        }
+    padding-right: 1.5em;
+  
+    .icon {
+      margin-right: 1.5em;
+      width: 23px;
+      height: 23px;
+  
+      &:hover {
+        cursor: pointer;
+      }
     }
-}
+  
+    .profileIcon {
+      margin-top: -3px;
+    }
+  }
